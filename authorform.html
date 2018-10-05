@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        span {
+            margin-left: 10%;
+        }
+
+        .eltol {;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <title>Cim</title>
+</head>
+<div>
+    <span>Library</span>
+    <span><a href="index.html">Home</a></span>
+    <span><a href="bookform.html">Add Books</a></span>
+    <span><a href="authorform.html">Add Authors</a></span>
+    <span><a href="#">asd</a></span>
+</div>
+<form action="addAuthor" method="post">
+    <table>
+        <tr>
+            <td>name</td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>   
+            <td>nationality</td>
+            <td><select name="nationality">
+                <option value="Hungarian">Hungarian</option>
+                <option value="English">English</option>
+                <option value="German">German</option>
+                <option value="Dutch">Dutch</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>birthDate</td>
+            <td><input type="date" name="birthDate"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add author"></td>
+        </tr>
+    </table>
+</form>
+</html>
