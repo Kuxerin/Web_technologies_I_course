@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+    margin: 30px 30px 30px 30px;
+}
+
+a:link{
+    color: cornflowerblue;
+}
+
+a:visited{
+    color: darkmagenta;
+}
+
+table {
+    width: 100%;
+}
+
+
+#form{
+    margin: 20px;
+}
+
+#form td{
+    border-bottom: 1px dashed black;
+}
+
+#menu{
+    background-color: ghostwhite;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.menuTitle{
+    padding: 0px 136px;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 0px 137px;
+    margin: auto;
+    display: inline-block;
+}
+
+.button:HOVER {
+    background: gray;
+}
+
+#form .noline{
+    height: 20px;
+    border-bottom: 0px;
+}
+
+input{
+    width: 300px;
+}
+
+select {
+    width: 300px;
+}

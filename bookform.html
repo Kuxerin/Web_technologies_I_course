@@ -1,35 +1,25 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <style>
-        span {
-            margin-left: 10%;
-        }
-
-        .eltol {;
-            overflow: hidden;
-            white-space: nowrap;
-        }
-    </style>
-
     <meta charset="utf-8">
-    <title>Cim</title>
+    <link rel="stylesheet" type="text/css" href="css/bookform.css">
+    <title>Add a book</title>
 </head>
-<div>
-    <span>Library</span>
-    <span><a href="index.html">Home</a></span>
-    <span><a href="bookform.html">Add Books</a></span>
-    <span><a href="authorform.html">Add Authors</a></span>
-    <span><a href="#">asd</a></span>
+<div id="menu">
+    <span class="menuTitle">Library</span>
+    <span class="button"><a href="index.html">Home</a></span>
+    <span class="button"><a href="bookform.html">Add Books</a></span>
+    <span class="button"><a href="authorform.html">Add Authors</a></span>
 </div>
+<div id="form">
 <form action="addBook" method="post">
     <table>
         <tr>
-            <td>title</td>
+            <td>Title</td>
             <td><input type="text" name="title"></td>
         </tr>
         <tr>   
-            <td>genre</td>
+            <td>Genre</td>
             <td><select name="genre">
                 <option value="Sci-fi">Sci-fi</option>
                 <option value="Horror">Horror</option>
@@ -37,24 +27,25 @@
             </td>
         </tr>
         <tr>
-            <td>author</td>
-            <td><input type="password" name="author" required></td>
+            <td>Author</td>
+            <td><input type="password" name="author" required="required"></td>
         </tr>
         <tr>
-            <td>quantity</td>
+            <td>Quantity</td>
             <td><input type="number" name="quantity"></td>
         </tr>
         <tr>
-            <td>available</td>
+            <td>Available</td>
             <td><input type="number" name="available"></td>
         </tr>
         <tr>
-            <td>publisher</td>
+            <td>Publisher</td>
             <td><input type="email" name="publisher"</td>
         </tr>
         <tr>
-            <td><input type="submit" value="Add book"></td>
+            <td class="noline"><input type="submit" value="Add book"></td>
         </tr>
     </table>
 </form>
+</div>
 </html>
