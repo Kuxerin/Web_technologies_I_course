@@ -1,0 +1,204 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+h2 {
+    padding: 10px;
+    margin: auto;
+    background: darkgoldenrod linear-gradient(darkgoldenrod, goldenrod, goldenrod, #fedc9c);
+}
+
+table tr, td, th {
+    background-color: #fedc9c;
+    border-bottom: 1px dashed darkgoldenrod;
+    padding: 10px;
+    text-align: left;
+    font-size: 24px;
+}
+
+input[type=text], input[type=number], input[type=date] {
+    width: 70%;
+    height: 20px;
+    padding: 8px;
+    background-color: gainsboro;
+    border: 2px dashed goldenrod;
+}
+
+input:focus {
+    background-color: whitesmoke;
+}
+
+/*---------------------------------*/
+
+#header {
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+    height: 130px;
+}
+
+#frame {
+    background: darkgoldenrod linear-gradient(to right, darkgoldenrod, goldenrod, #fedc9c);
+    position: fixed;
+    line-height: 120px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#layout {
+    padding: 10px 10px 10px 0;
+}
+
+#content {
+    padding: 30px 30px 30px 30px;
+    margin: 140px 0 0 310px;
+    height: 100%;
+}
+
+#content #separated_content {
+    background-color: #fedc9c;
+    text-align: left;
+    color: black;
+    font-size: 24px;
+    width: 95%;
+    margin: 20px 20px 20px 20px;
+}
+
+#separated_content .buttons {
+    color: black;
+    display: block;
+    width: 300px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    border: 12px inset blanchedalmond;
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    font-family: "Times New Roman";
+}
+
+#separated_content .buttons:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+#contact_content {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#tables table {
+    width: 100%;
+}
+
+#tables .buttons:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+#navigation {
+    background: darkgoldenrod linear-gradient(darkgoldenrod, goldenrod, goldenrod, #fedc9c, #fedc9c);
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    overflow: visible;
+    margin: 180px 40px 40px 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+#navigation li {
+    text-align: center;
+}
+
+#navigation a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation .buttons {
+    color: black;
+    display: block;
+    width: 120px;
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px;
+    border: 12px inset #fedc9c;
+    text-decoration: none;
+    background-color: darkgoldenrod;
+}
+
+#navigation .buttons.active {
+    background-color: chocolate;
+    color: black;
+}
+
+#navigation .buttons:hover{
+    cursor: pointer;
+}
+
+#navigation .buttons.dropmenu.active {
+    background-color: coral;
+    margin-bottom: 10px;
+}
+
+#navigation .buttons:hover:not(.active) {
+    color: black;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+#navigation .buttons.dropcontent {
+    color: black;
+    display: none;
+    width: 105px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    margin: 2px 0 2px 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 8px inset #fedc9c;
+}
+
+#navigation .buttons.dropcontent:hover {
+    background-color: blanchedalmond;
+}
+
+#tables_v th {
+    width:200px;
+    max-width: 250px;
+    font-size: 20px;
+    overflow-x: auto;
+}
+
+#tables_v td {
+    width: 500px;
+    max-width: 800px;
+    font-size: 18px;
+    overflow-x: auto;
+}
+
+#tables_h th {
+    width:130px;
+    max-width: 160px;
+    font-size: 20px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+#tables_h td {
+    width: 300px;
+    max-width: 800px;
+    font-size: 18px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.clickable {
+    font-weight: bold;
+}

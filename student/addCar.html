@@ -1,0 +1,33 @@
+<form id='tables' action='addCar' method='post'>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td><input type='text' placeholder='Type in the type name of the car (ex.: "Sandero")'  name='name' required='required'></td>
+        </tr>
+        <tr>
+            <th>Consumption:</th>
+            <td><input type='text' placeholder='Type in the consumption of the car (ex.: "6.2l/100km")' name='consumption' required='required'></td>
+        </tr>
+        <tr>
+            <th>Color:</th>
+            <td><input type='text' placeholder='Type in the color of the car (ex.: "Meteorite Grey")' name='color' required='required'></td>
+        </tr>
+        <tr>
+            <th>Manufacturer:</th>
+            <td><input type='text' placeholder='Type in the manufacturer of the car (ex.: "Dacia")' name='manufacturer' required='required'></td>
+        </tr>
+        <tr>
+            <th>Year:</th><td><input type='number' min='1900' max='2018' step='1' placeholder='Type in the year the car has been manufactured (ex.: "2017")' name='year' required='required'></td>
+        </tr>
+        <tr>
+            <th>Available:</th><td><input type='number' min='0' step='1' placeholder='Type in the number of cars available (ex.: "3")' name='available' required='required'></td>
+        </tr>
+        <tr>
+            <th>Horsepower:</th><td><input type='number' min='0' max='999' step='0.1' placeholder='Type in the performance of the car in hp (ex.: "90")' name='horsepower' required='required'></td>
+        </tr>
+        <tr>
+            <td style='border:none'><input class='buttons' type='submit' name='submit' value='SUBMIT'></td>
+            <td style='border:none'><input class='buttons' type='reset' value='RESET'></td>
+        </tr>
+    </table>
+</form>
