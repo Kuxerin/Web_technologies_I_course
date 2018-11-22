@@ -141,32 +141,10 @@ input:focus {
     cursor: pointer;
 }
 
-#navigation .buttons.dropmenu.active {
-    background-color: coral;
-    margin-bottom: 10px;
-}
-
 #navigation .buttons:hover:not(.active) {
     color: black;
     background-color: blanchedalmond;
     text-align: center;
-}
-
-#navigation .buttons.dropcontent {
-    color: black;
-    display: none;
-    width: 105px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 13px;
-    margin: 2px 0 2px 32px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 8px inset #fedc9c;
-}
-
-#navigation .buttons.dropcontent:hover {
-    background-color: blanchedalmond;
 }
 
 #tables_v th {
@@ -197,8 +175,4 @@ input:focus {
     font-size: 18px;
     overflow-x: auto;
     text-align: center;
-}
-
-.clickable {
-    font-weight: bold;
 }
